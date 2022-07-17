@@ -17,7 +17,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.1.1",
+    "version": "1.2.0",
     "name": "DDice GMTK22",
     "description": "A weird and fun crossover between Tetris and a dungeon crawler game.\nMade in 48 hours for the GMTK Game Jam 2022 !",
     "author": "",
@@ -618,15 +618,6 @@
         "userAdded": true
       },
       {
-        "file": "dieRoll.wav",
-        "kind": "audio",
-        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 4\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.22,\\\"sustainPunch\\\":0,\\\"decay\\\":1,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":-3300,\\\"repeatFrequency\\\":24.6,\\\"frequencyJump1Onset\\\":5,\\\"frequencyJump1Amount\\\":60,\\\"frequencyJump2Onset\\\":55,\\\"frequencyJump2Amount\\\":5,\\\"harmonics\\\":4,\\\"harmonicsFalloff\\\":0.88,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":5900,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":6200,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"dieRoll\"}}",
-        "name": "dieRoll.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": true,
-        "userAdded": true
-      },
-      {
         "file": "snapped.wav",
         "kind": "audio",
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":70,\\\"decay\\\":0.09,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1100,\\\"frequencySweep\\\":-1900,\\\"frequencyDeltaSweep\\\":-1600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":40,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"snapped\"}}",
@@ -714,6 +705,24 @@
         "name": "click.wav",
         "preloadAsMusic": false,
         "preloadAsSound": true,
+        "userAdded": true
+      },
+      {
+        "file": "dieRoll.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 4\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":1,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":101.7926688027816,\\\"frequencyDeltaSweep\\\":-1124.967011611044,\\\"repeatFrequency\\\":24.6,\\\"frequencyJump1Onset\\\":5,\\\"frequencyJump1Amount\\\":60,\\\"frequencyJump2Onset\\\":55,\\\"frequencyJump2Amount\\\":5,\\\"harmonics\\\":4,\\\"harmonicsFalloff\\\":0.88,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":5900,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":6200,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"dieRoll\"}}",
+        "name": "dieRoll.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       }
     ],
@@ -821,7 +830,7 @@
       "oglZNear": 1,
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -2123,7 +2132,7 @@
       "oglZNear": 1,
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -3485,7 +3494,7 @@
       "oglZNear": 1,
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -7107,7 +7116,7 @@
                     "3",
                     "",
                     "60",
-                    "RandomInRange(1.1, 1.2)"
+                    "RandomInRange(1.2, 1.6)"
                   ]
                 },
                 {
@@ -8069,7 +8078,7 @@
       "oglZNear": 1,
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -8512,6 +8521,44 @@
               "parameters": [
                 "",
                 "\"DDice GMTK22 edition\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "theme.mp3",
+                "10",
+                "yes",
+                "50",
+                "1"
               ]
             }
           ]
