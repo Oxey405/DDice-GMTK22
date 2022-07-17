@@ -10,20 +10,20 @@
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.oxey405.ddicejam",
     "pixelsRounding": false,
     "projectUuid": "11cc1f22-cd66-4393-9b39-7179f7ac9dd4",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "GMTK 2022",
-    "description": "",
+    "version": "1.1.0",
+    "name": "DDice GMTK22",
+    "description": "A weird and fun crossover between Tetris and a dungeon crawler game.\nMade in 48 hours for the GMTK Game Jam 2022 !",
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Oxey4\\Documents\\GDevelop Projects\\DDiceWeb",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -44,7 +44,9 @@
       "showGDevelopSplash": false,
       "showProgressBar": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "Mk7N5tFrpcePEmbe3ZLC4peEULY2"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -315,7 +317,7 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "assets/tiled_BlueBackground-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -738,7 +740,7 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "buttonBG-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -752,7 +754,7 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 9\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.0995890391115144,\\\"sustainPunch\\\":80,\\\"decay\\\":0.14765966515755746,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1600,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":10,\\\"frequencyJump1Amount\\\":85,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"breaker\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":9.44249097025656,\\\"squareDuty\\\":65,\\\"squareDutySweep\\\":-15,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"combo\"}}",
         "name": "combo.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": true
       },
       {
@@ -761,7 +763,7 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 4\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.22,\\\"sustainPunch\\\":0,\\\"decay\\\":1,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":-3300,\\\"repeatFrequency\\\":24.6,\\\"frequencyJump1Onset\\\":5,\\\"frequencyJump1Amount\\\":60,\\\"frequencyJump2Onset\\\":55,\\\"frequencyJump2Amount\\\":5,\\\"harmonics\\\":4,\\\"harmonicsFalloff\\\":0.88,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":5900,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":6200,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"dieRoll\"}}",
         "name": "dieRoll.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": true
       },
       {
@@ -770,7 +772,7 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":70,\\\"decay\\\":0.09,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1100,\\\"frequencySweep\\\":-1900,\\\"frequencyDeltaSweep\\\":-1600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":40,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"snapped\"}}",
         "name": "snapped.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": true
       },
       {
@@ -779,7 +781,7 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Hit/hurt 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.08,\\\"sustainPunch\\\":80,\\\"decay\\\":0.09,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":800,\\\"frequencySweep\\\":-600,\\\"frequencyDeltaSweep\\\":-400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":10000,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"orcdefeated\"}}",
         "name": "orcdefeated.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": true
       },
       {
@@ -797,7 +799,7 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Hit/hurt 8\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.009403878729702386,\\\"sustain\\\":0.29096833112189646,\\\"sustainPunch\\\":10,\\\"decay\\\":0.2501972847833356,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":564.656301105411,\\\"frequencySweep\\\":-56.70496086341315,\\\"frequencyDeltaSweep\\\":-300,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":1,\\\"harmonicsFalloff\\\":0.43,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":7.153158266410371,\\\"vibratoFrequency\\\":1.2685155690742982,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":6,\\\"flangerOffsetSweep\\\":-1,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":-4700,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"loosing\"}}",
         "name": "loosing.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": true
       },
       {
@@ -806,11 +808,11 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.23668838957096483,\\\"sustainPunch\\\":0,\\\"decay\\\":1.8187084892296177,\\\"tremoloDepth\\\":35,\\\"tremoloFrequency\\\":0.566045233579827,\\\"frequency\\\":499.681874751736,\\\"frequencySweep\\\":-200,\\\"frequencyDeltaSweep\\\":-800,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":1,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":45,\\\"squareDutySweep\\\":35,\\\"flangerOffset\\\":1,\\\"flangerOffsetSweep\\\":-9,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"alert\"}}",
         "name": "alert.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "fader-1.png",
         "kind": "image",
         "metadata": "",
@@ -843,6 +845,15 @@
         "metadata": "",
         "name": "banner.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "click.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Default 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.02,\\\"sustain\\\":0.05940387872970239,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":9999.999999999698,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":3.3,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"click\"}}",
+        "name": "click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
         "userAdded": true
       }
     ],
@@ -914,7 +925,7 @@
       ],
       "effects": [],
       "behaviors": [],
-      "string": "REPLAY",
+      "string": "DATA : OFF",
       "font": "MinecraftTen.ttf",
       "characterSize": 32,
       "color": {
@@ -931,6 +942,12 @@
       "name": "score",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "stats",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -961,7 +978,14 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "_stats",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -1641,7 +1665,40 @@
           ]
         },
         {
-          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "click.wav",
+                "",
+                "40",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1671,6 +1728,17 @@
                 "de",
                 "\"changeFace\""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"stats\"",
+                "\"save\"",
+                "",
+                "_stats"
+              ]
             }
           ],
           "events": [
@@ -1696,6 +1764,76 @@
                   "parameters": [
                     "de",
                     "\"lifetime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "_stats",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "stats",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableMetrics"
+                  },
+                  "parameters": [
+                    "",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "_stats",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "stats",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableMetrics"
+                  },
+                  "parameters": [
+                    "",
+                    "yes"
                   ]
                 }
               ]
@@ -2223,6 +2361,52 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "buttonBG",
+          "persistentUuid": "13348047-cf7e-4217-a316-e2adf4948b42",
+          "width": 256,
+          "x": 512,
+          "y": 512,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "locked": false,
+          "name": "buttonText",
+          "persistentUuid": "b7e6fe57-548f-4340-911f-79fdf4b4f39b",
+          "width": 192,
+          "x": 576,
+          "y": 512,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [
@@ -2656,7 +2840,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "How to play :\nThis game is a crossover between a game of Tetris and a dungeon crawler.\nYou can place a die which as a starting number and rolls down the path (board/grid).\nThe die circle through the numbers from 1 to 6. (yes it's a weird die but it's magic)\nMeanwhile on the board, Orcs spawns and go up the board to steal the treasure.\nYou have 3 lives which means that 3 Orcs stealing your treasure causes game over.\n\nYou have two main goals : \n- Put dices on the grid to roll over Orcs.\n- Make pairs of dices that are the same value\nYou'll have to think about where to roll the die so it can roll on an orc and land \nwith the matching number next to another die.\n\nCredits : \nMade by Oxey405 (code, art and sounds under GPLv3 license)\nPixel art from Robert Norenberg (under CC0 license)",
+          "string": "How to play :\nThis game is a crossover between a game of Tetris and a dungeon crawler.\nYou can place a die which as a starting number and rolls down the path (board/grid).\nThe die circle through the numbers from 1 to 6. (yes it's a weird die but it's magic)\nMeanwhile on the board, Orcs spawns and go up the board to steal the treasure.\nYou have 3 lives which means that 3 Orcs stealing your treasure causes game over.\n\nYou have two main goals : \n- Put dice on the grid to roll over Orcs.\n- Make pairs of dice that are the same value\nYou'll have to think about where to roll the die so it can roll on an orc and land \nwith the matching number next to another die.\n\nCredits : \nMade by Oxey405 (code, art and sounds under GPLv3 license)\nPixel art from Robert Norenberg (under CC0 license)",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -2808,6 +2992,40 @@
               "parameters": [
                 "de",
                 "\"changeFace\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "click.wav",
+                "",
+                "40",
+                "1"
               ]
             }
           ]
@@ -3062,7 +3280,7 @@
                   "parameters": [
                     "buttonBG",
                     "=",
-                    "SceneWindowWidth()/2",
+                    "SceneWindowWidth()/4",
                     "=",
                     "SceneWindowHeight()/1.1"
                   ]
@@ -3132,6 +3350,201 @@
                         "sceneToGo",
                         "=",
                         "\"titlescreen\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "buttonBG",
+                    "id",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "buttonBG",
+                    "=",
+                    "SceneWindowWidth()/1.22",
+                    "=",
+                    "SceneWindowHeight()/1.1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "buttonText",
+                        "id",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "buttonText",
+                        "=",
+                        "buttonBG.CenterX()",
+                        "=",
+                        "buttonBG.CenterY()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "stats",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "buttonText",
+                            "=",
+                            "\"STATS : OFF\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "stats",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "buttonText",
+                            "=",
+                            "\"STATS : ON\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseHelper::button::isClicked"
+                      },
+                      "parameters": [
+                        "buttonBG",
+                        "button",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "stats"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "stats",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"stats\"",
+                            "\"save\"",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "stats",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"stats\"",
+                            "\"save\"",
+                            "1"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3225,7 +3638,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7727499999999936,
+        "zoomFactor": 0.7977499999999936,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8133,6 +8546,40 @@
                     "\"titlescreen\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "click.wav",
+                "",
+                "40",
+                "1"
               ]
             }
           ]
