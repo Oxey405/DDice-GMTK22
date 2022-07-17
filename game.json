@@ -17,7 +17,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "DDice GMTK22",
     "description": "A weird and fun crossover between Tetris and a dungeon crawler game.\nMade in 48 hours for the GMTK Game Jam 2022 !",
     "author": "",
@@ -205,110 +205,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Necromancer_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Idle_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Idle_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Idle_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Idle_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Idle_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Run_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Run_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Run_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Run_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Run_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Run_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Necromancer_Run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Necromancer_Run_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Necromancer_Run_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sprites/Star 1.png",
         "kind": "image",
         "metadata": "",
@@ -324,42 +220,6 @@
         "name": "assets\\tiled_BlueBackground-1-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Warrior_Run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Orc Warrior_Run_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Warrior_Run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Orc Warrior_Run_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Warrior_Run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Orc Warrior_Run_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Warrior_Run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Orc Warrior_Run_4.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2276,7 +2136,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6999999999999997,
+        "zoomFactor": 0.37499999999999944,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3638,7 +3498,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7977499999999936,
+        "zoomFactor": 0.6727499999999895,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3647,9 +3507,6 @@
           "objects": [
             {
               "name": "OrcWarrior"
-            },
-            {
-              "name": "Necromancer"
             }
           ]
         }
@@ -3700,6 +3557,12 @@
           "name": "lives",
           "type": "string",
           "value": "3"
+        },
+        {
+          "folded": true,
+          "name": "orcStepRythm",
+          "type": "number",
+          "value": 10
         }
       ],
       "instances": [
@@ -4361,7 +4224,7 @@
           "name": "triggerLoosePoint",
           "persistentUuid": "22c53c25-f0f3-425e-9831-f5e74c53c1dc",
           "width": 449,
-          "x": 193,
+          "x": 191,
           "y": 0,
           "zOrder": 14,
           "numberProperties": [],
@@ -5055,263 +4918,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Orc Warrior_Run_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Orc Warrior_Run_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Orc Warrior_Run_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Orc Warrior_Run_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "7380e4d9df4c1ddce37151f0c6e3d99b6a62f74ff0eacd36b7814738d3ea5c92",
-          "name": "Necromancer",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Run_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Run_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Run_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Necromancer_Run_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -5525,47 +5131,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Wall Mid.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "2923520ef7674522911eada43f106c8112ad538b07786b39ca3009a5f1cdb9fe",
-          "name": "DoorAll",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Door All.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6412,6 +5977,34 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dieCooldown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"randomCheck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::SetOutline"
+                  },
+                  "parameters": [
+                    "dieHint",
+                    "\"255;255;255\"",
+                    "8"
+                  ]
                 }
               ]
             }
@@ -6431,16 +6024,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug",
-                    "=",
-                    "\"DEBUG : \" + NewLine() + \"Drop X : \" + ToString(drop.X()) + NewLine() + \"Column : \" + ToString(ceil((drop.X() - tiles.X()) / 64))"
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetCenter"
@@ -6491,6 +6074,23 @@
                     "scoreUI",
                     "=",
                     "\"SCORE : \" + ToString(Variable(score)) "
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "debug",
+                    "=",
+                    "\"DEBUG : \" + NewLine() + \"Drop X : \" + ToString(drop.X()) + NewLine() + \"Column : \" + ToString(ceil((drop.X() - tiles.X()) / 64))"
                   ]
                 }
               ]
@@ -6646,6 +6246,74 @@
                 }
               ],
               "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "de"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "de",
+                    "rolling",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "de",
+                    "Tween",
+                    "\"tombe\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"randomCheck\"",
+                    ">",
+                    "0.1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Dices::Dice::Checks"
+                  },
+                  "parameters": [
+                    "de",
+                    "Dice",
+                    "tiles.X()",
+                    "tiles.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"randomCheck\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -7221,6 +6889,17 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dieCooldown\"",
+                    ">",
+                    "0.36"
+                  ]
                 }
               ],
               "actions": [
@@ -7400,15 +7079,6 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"checkPressed\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
@@ -7438,6 +7108,24 @@
                     "",
                     "60",
                     "RandomInRange(1.1, 1.2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"checkPressed\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dieCooldown\""
                   ]
                 }
               ],
@@ -7678,7 +7366,7 @@
                     "",
                     "\"enemyMove\"",
                     ">",
-                    "6-(Variable(score)/440)"
+                    "Variable(orcStepRythm)"
                   ]
                 }
               ],
@@ -7693,7 +7381,7 @@
                     "\"moveUp\"",
                     "OrcWarrior.Y()-64",
                     "\"easeInOutQuad\"",
-                    "160",
+                    "100",
                     ""
                   ]
                 },
@@ -7885,6 +7573,60 @@
                         "de",
                         "=",
                         "5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "orcStepRythm",
+                        ">",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "orcStepRythm",
+                        "-",
+                        "pow(1.05,(Variable(score)/500))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "orcStepRythm",
+                        "<",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "orcStepRythm",
+                        "=",
+                        "0.6"
                       ]
                     }
                   ]
@@ -8133,6 +7875,7 @@
               "comment2": ""
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8309,6 +8052,10 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "button",
+          "type": "MouseHelper::button"
         }
       ]
     },
